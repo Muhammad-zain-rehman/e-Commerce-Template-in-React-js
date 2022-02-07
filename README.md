@@ -1,1 +1,1 @@
-# e-Commerce-Template-in-React-js
+# E-Commerce-Template-in-React-js
