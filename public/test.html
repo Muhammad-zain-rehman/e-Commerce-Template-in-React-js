@@ -1,0 +1,124 @@
+
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css File Link Here-->
+    <link rel="stylesheet" type="text/css" href="testStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- javascript file link here -->
+    <script type="text/javascript" src="script.js"></script>
+
+    <style type="text/css">
+        /*@media only screen and (max-width: 700px){*/
+        /*.first{
+            width: 100%;
+            display: block;
+        }*/
+        #container-border {
+            border-width: 1px solid;
+            border-color: black;
+            border-style: double;
+            margin-top: 50px;
+            margin-right: 200px;
+            margin-left:  200px;
+            }
+
+    </style>
+    <body>
+<!-- <div class="first" style="margin-left: 500px; margin-top: 120px;"> -->
+<!-- <div class="form_wrapper " > -->
+ <!-- <div class="form-group  "> -->
+    <!-- <div class="form_container "  > -->
+        <div class="title_container ">
+          <center><h1 style="margin-top: 40px; font-family: Sans-serif;" >Sign Up</h1></center>
+          <hr style="width:10%;text-align:center; border: 1px solid red; ">
+        </div>
+        
+    <form name="myForm" novalidate="novalidate" id="jsform"  onsubmit="event.preventDefault(); " >
+        <div class="row col-lg-offset-1">
+            <div class="col-lg-3 col-lg-offset-4">
+                
+                <label for="inputName">Name: </label>
+                <input type="text" class="form-control" id="fname"  name="fname">
+                <small id="fnameError" style="color: red; font-size: 15px;">
+                </small>
+
+             </div>
+        </div>
+
+              <br>
+
+        <div class="row col-lg-offset-1" >
+            <div class="col-lg-3 col-lg-offset-4">
+
+                <label for="inputEmail">Email: </label>
+                  <input type="text" class="form-control" name="femail">
+                  <small id="fEmailError" style="color: red; font-size: 15px;">
+                      
+                  </small>
+            </div>
+        </div>
+
+              <br>
+
+        <div class="row col-lg-offset-1">
+             <div class="col-lg-3 col-lg-offset-4">
+                <label for="inputPassword">Password: </label>
+                  <input type="password" class="form-control" name="fpassword">
+                  <small id="fPasswordError" style="color: red; font-size: 15px;">
+                      
+                  </small>
+            </div>
+        </div>
+
+              <br>
+            
+            <center>
+            
+                <button type="submit" id="btn_submit" class="btn btn-success" onclick="validateForm()">
+                    Submit</button>
+
+            </center>
+              <!-- 
+              <button type="submit" class="btn btn-primary" id="btn_reterive" onclick="funReterive()" >Reterive</button>
+              <button type="submit" class="btn btn-info" id="btn_update" onclick="funUpdate()" >Update</button>
+              <button type="submit" class="btn btn-danger" id="btn_delete" onclick="funDelete()">clear</button>  -->
+                  
+          </form>
+<!-- </div> -->
+  <center><p style="margin-top: 100px" class="credit"> Copyright &copy; By <a href="https://astutesoftwares.com/" target="_blank">Astute Softwares</a></p></center>
+<!-- </div> -->
+<!-- </div> -->
+<!-- </div> -->
+
+
+<div class="container" style="display: none;" id="contain1">
+   <!--  <div class="card">
+        
+        <div class="card-body">
+
+            <div class="row " id="row1">
+                <div class="column" style="width: 90%;">
+                    <h6><li id="abc">Zain</li></h6>               
+                </div>
+                <div class="column" style="width: 40px;">
+                    <img src="update.jpg" class="icon" alt="update" onclick="gotoback()" >                
+                </div>
+                <div class="column" style="width: 40px;">
+                    <img src="delete.jpg" class="icon" alt="delete" onclick="delItem()">                  
+                </div>
+                <hr class="hr2">
+
+            </div>
+        </div>
+    </div> -->
+</div>
+    
+    </body>
+
+
+</html>
+
+<

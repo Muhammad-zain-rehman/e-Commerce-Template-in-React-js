@@ -1,0 +1,8 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.error_msg{
+  @apply mt-1 font-normal text-xs text-red-500  italic
+}
